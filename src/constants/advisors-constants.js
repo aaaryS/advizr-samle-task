@@ -1,0 +1,4 @@
+export default {
+  'FETCH_ADVISORS': 'FETCH_ADVISORS',
+  'DELETE_ADVISOR': 'DELETE_ADVISOR'
+}

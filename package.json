@@ -2,7 +2,8 @@
   "name": "advizr",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "lint": "eslint -c .eslintrc --no-eslintrc --ext .jsx,.js --max-warnings 0 .jsx,.js ."
   },
   "ava": {
     "babel": "inherit",

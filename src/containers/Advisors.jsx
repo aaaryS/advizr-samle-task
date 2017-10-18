@@ -7,7 +7,7 @@ import { AdvisorsList } from './../components'
 
 import * as advisorsActions from './../actions/advisors-actions'
 
-@connect((s, p) => ({
+@connect(s => ({
   advisors: s.advisors
 }),
 d => ({

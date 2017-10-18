@@ -1,8 +1,11 @@
 ---
 parser: babel-eslint
-ecmaFeatures:
-  jsx: true
-  modules: true
+parserOptions:
+  ecmaVersion: 6
+  sourceType: module
+  ecmaFeatures:
+    blockBindings: true
+    jsx: true
 env:
   browser: true
   es6: true
@@ -14,3 +17,5 @@ plugins:
   - react
 rules:
   no-console: 1
+  react/jsx-uses-react: 1
+  react/jsx-uses-vars: 1
